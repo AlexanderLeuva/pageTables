@@ -55,6 +55,12 @@ build CMakeFiles/pageTables.dir/main.c.obj: C_COMPILER__pageTables_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\pageTables.dir
   OBJECT_FILE_DIR = CMakeFiles\pageTables.dir
 
+build CMakeFiles/pageTables.dir/mlpt.c.obj: C_COMPILER__pageTables_Debug C$:/Users/Anh-Tuan$ Le/CLionProjects/pageTables/mlpt.c || cmake_object_order_depends_target_pageTables
+  DEP_FILE = CMakeFiles\pageTables.dir\mlpt.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\pageTables.dir
+  OBJECT_FILE_DIR = CMakeFiles\pageTables.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target pageTables
@@ -63,7 +69,7 @@ build CMakeFiles/pageTables.dir/main.c.obj: C_COMPILER__pageTables_Debug C$:/Use
 #############################################
 # Link the executable pageTables.exe
 
-build pageTables.exe: C_EXECUTABLE_LINKER__pageTables_Debug CMakeFiles/pageTables.dir/main.c.obj
+build pageTables.exe: C_EXECUTABLE_LINKER__pageTables_Debug CMakeFiles/pageTables.dir/main.c.obj CMakeFiles/pageTables.dir/mlpt.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\pageTables.dir

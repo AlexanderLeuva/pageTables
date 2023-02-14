@@ -3,4 +3,4 @@ project(pageTables C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(pageTables main.c)
+add_executable(pageTables main.c config.h mlpt.h)
